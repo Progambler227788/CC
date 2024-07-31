@@ -1,0 +1,19 @@
+chnonical items we use in LR(0) parser
+
+E -> T+E/T
+T -> id
+
+
+E' -> .E
+
+To indicate when parser will stop parsing
+
+
+. shows us shifting, . shows us either parser
+has seen input item of given input like id in
+id + id, we did id + id 
+
+
+Shift/Reduced,,,, Reduced/Reduced problem
+
+Not LR(0) grammar
